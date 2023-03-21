@@ -1,12 +1,30 @@
 {
   "name": "isection",
   "version": "0.0.3",
+  "description": "A hard React Component that use that section",
   "type": "module",
   "main": "./dist/index.js",
   "scripts": {
     "dev": "vite",
     "lib:dev": "tsup ./libs/section/index.tsx --watch",
     "build": "tsup src/index.tsx"
+  },
+  "keywords": [
+    "react",
+    "component",
+    "section",
+    "fast"
+  ],
+  "author": "magesium",
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yyong008/iColorsSystem.git",
+    "branch": "master",
+    "platform": "github"
   },
   "devDependencies": {
     "@types/node": "^18.15.0",
